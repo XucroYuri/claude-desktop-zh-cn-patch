@@ -1,0 +1,28 @@
+{
+  "name": "claude-desktop-zh-cn-patch",
+  "version": "0.1.0",
+  "description": "Unofficial Chinese i18n patch for Claude Desktop on macOS.",
+  "type": "module",
+  "bin": {
+    "claude-desktop-zh-cn-patch": "./scripts/patch-claude-desktop-zh-cn.mjs",
+    "claude-desktop-zh-cn-restore": "./scripts/restore-latest-backup.mjs"
+  },
+  "scripts": {
+    "check": "node --check scripts/patch-claude-desktop-zh-cn.mjs && node --check scripts/restore-latest-backup.mjs",
+    "patch": "node scripts/patch-claude-desktop-zh-cn.mjs",
+    "patch:dry-run": "node scripts/patch-claude-desktop-zh-cn.mjs --dry-run",
+    "restore:dry-run": "node scripts/restore-latest-backup.mjs --dry-run"
+  },
+  "keywords": [
+    "claude",
+    "claude-desktop",
+    "i18n",
+    "zh-CN",
+    "macos",
+    "localization"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
