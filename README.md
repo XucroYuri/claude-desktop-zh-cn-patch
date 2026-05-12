@@ -102,3 +102,8 @@ npm run check
 ## 免责声明
 
 本项目是社区自用工具，不代表 Anthropic 或 Claude 官方。使用前请确认你理解本地应用资源补丁的风险，并保留备份。
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=XucroYuri/claude-desktop-zh-cn-patch&type=Date)](https://star-history.com/#XucroYuri/claude-desktop-zh-cn-patch&Date)
+
